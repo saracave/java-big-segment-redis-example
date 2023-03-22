@@ -19,3 +19,7 @@ This project uses [Gradle](https://gradle.org/). It requires that Java is alread
 2. On the command line, run `./gradlew run` (or, on Windows, `gradlew run`).
 
 You should see the message `"Feature flag '<flag key>' is <true/false> for this context"`.
+
+This example has been configured for bigSegments using the [java-server-sdk-redis](https://github.com/launchdarkly/java-server-sdk-redis) release [3.0.0](https://github.com/launchdarkly/java-server-sdk-redis/releases/tag/3.0.0).
+
+Redis.bigSegmentStore() is now used instead of Redis.dataStore()
